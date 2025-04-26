@@ -1,5 +1,5 @@
 /* 
-- Name: Two Sum
+- Name: 1. Two Sum
 - Description: Given an array of integers nums and an integer target,
 return indices of the two numbers such that they add up to target.
 - My line of thought: When find a combination of two numbers that the sum is equal to
