@@ -4,7 +4,6 @@
 remove all occurrences of val in nums in-place. The order of
 the elements may be changed. Then return the number of elements
 in nums which are not equal to val.
-
 - My line of thought: Since it is an array, I used a for loop to iterate.
 I checked if the element is different from the value to be removed.
 At the same time, I used the variable k to count the number of elements.
