@@ -15,3 +15,38 @@ function isPalindrome(x) {
 
     return true;
 }
+
+/*
+
+After studying a little bit more, I realized two other ways to solve this problem:
+
+Time: O(n) - where n is the length of the string
+Space: O(n) - where n is the length of the string
+
+function isPalindrome(string) {
+  let newString = [];
+  
+  for (let i = string.length - 1; i >= 0; i--) {
+    newString.push(string[i]);
+  }
+
+  return newString.join('') == string;
+}
+
+Time: O(n) - where n is the length of the string
+Space: O(1) - no extra space used
+
+function isPalindromeOptimized(string) {
+  let left = 0;
+  let right = string.length - 1;
+  
+  while (left < right) {
+    if (string[left] !== string[right]) return false;
+    left++;
+    right--;
+  }
+  
+  return true;
+}
+
+*/
